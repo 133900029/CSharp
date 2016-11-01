@@ -77,7 +77,55 @@ public class Review : MonoBehaviour {
 // 
 // 事件是一个特殊的委托
 
-
+// 值被分配到线程的堆栈，变量保存数据
+// 引用被分配到托管堆，变量保存数据的内存地址
+// 
+// 无论是值变量还是引用变量，变量本身都存在栈上
+// 
+// 值和引用的转换-装箱和拆箱
+// 
+// 值类型值传递--值不收影响
+// 引用类型值传递--值受影响
+// 
+// 值类型引用传递--值变--out ref
+// 引用类型引用传递--值变--out ref
+// 
+// 泛型
+// class A<T> where T :class
+// 
+// 可空类型
+// Nullable<int> value = 1;
+// int? value = 1;
+// int y = value ?? 123;
+// 
+// 匿名方法
+// method.Onclick=()=>{}
+// 
+// 迭代器
+// 继承IEnumerable 能够迭代
+// 实现IEnumerator GetEnumerator方法
+// 
+// 自动属性
+// public string Name{set;get;}
+// 
+// 隐式类型
+// var
+// 
+// lambda表达式
+// => 等价于 goto
+// 树的表达式
+// 
+// 扩展方法
+// public static JSM(this IEnumerable<int> source)
+// 
+// linq
+// from item in collection where item%2 ==0 select item
+// 
+// 可选参数
+// (int x=10, int y)
+// 
+// 动态类型
+// dynamic i =10;
 
 
 
