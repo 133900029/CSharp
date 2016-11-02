@@ -127,11 +127,39 @@ public class Review : MonoBehaviour {
 // 动态类型
 // dynamic i =10;
 
-
-
-
-
-
-
+// 
+// 应用程序》进程》线程
+// 线程是进程执行的单元
+// 进程是线程的容器
+// 
+// 前台线程：主线程
+// 后台线程
+// 
+// 线程池实现多线程threadpool.queueuserworkitem
+// 
+// 线程同步monitor.enter monitor.exit
+// 
+// 文件操作
+// file
+// fileinfo
+// dictionary
+// dictionaryinfo
+// 
+// stream
+// NetworkStream
+// FileStream
+// MemoryStream
+// GZipStream
+// 
+// encoding.utf8.getbytes
+// bitconverter
+// 
+// 物理层-二进制，比特流
+// 数据链路层-数据包--帧头+帧数据
+// 网络层-ip地址-head和data
+// 传输层-端口-端口-tcp-udp
+// 应用层-http
+// 
+// 
 
 
